@@ -1,0 +1,63 @@
+p {
+  margin: 0;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 560px;
+  padding-top: 28px;
+}
+.image {
+  max-width: 240px;
+  max-height: 240px;
+  background-color: rgb(63, 63, 63);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.userName {
+  font-size: 56px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.userTag,
+.userLoc {
+  font-size: 40px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.statsContainer {
+  background-color: rgb(201, 201, 201);
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 3px solid rgb(109, 109, 109);
+}
+
+.statsItem {
+  padding: 20px 0;
+  list-style: none;
+  width: calc(100% / 3);
+  border-right: 3px solid rgb(109, 109, 109);
+}
+
+.statsItem:last-child {
+  border-right: none;
+}
+
+.statsValue {
+  font-size: 32px;
+  display: block;
+  text-align: center;
+}
