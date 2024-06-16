@@ -9,15 +9,9 @@ import transactions from "../../transactions.json";
 const App = () => {
   return (
     <div>
-      <Profile
-        name={userData.username}
-        tag={userData.tag}
-        location={userData.location}
-        image={userData.avatar}
-        stats={userData.stats}
-      />
+      <Profile userProfile={userData} />
       <FriendList userFriends={friends} />
-      <TransactionHistory transactions={transactions} />
+      <TransactionHistory userTransactions={transactions} />
     </div>
   );
 };
